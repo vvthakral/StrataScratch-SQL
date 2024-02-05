@@ -1,8 +1,8 @@
 -- 2035 Avg Order Cost During Rush Hours
 
 
--- Problem Statement
 /*
+-- Problem Statement
 StrataQuest Link: https://platform.stratascratch.com/coding/2035-avg-order-cost-during-rush-hours
 
 The company you work for has asked you to look into the average order value per hour during rush hours in the San Jose area. Rush hour is from 15H - 17H inclusive.
@@ -12,10 +12,9 @@ You have also been told that the column order_total represents the gross order t
 The gross order total is the total of the order before adding the tip and deducting the discount and refund.
 
 Use the column customer_placed_order_datetime for your calculations.
-*/
+
 
 -- Solution
-/*
 Intution: We need to get avg of orders only placed during rush hour from San Jose area
 
 Clarification Questions: Does year need to be filtered
